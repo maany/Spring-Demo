@@ -3,6 +3,7 @@ package com.maany.spring;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Required;
+import org.springframework.context.MessageSource;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Controller;
 import org.springframework.stereotype.Repository;
@@ -16,10 +17,13 @@ import javax.annotation.Resource;
 @Controller
 public class Circle implements Shape {
     private Point center;
+    @Autowired
+    private MessageSource messageSource;
     @Override
     public void draw() {
         System.out.println("Drawing Circle");
-        System.out.println("Center Point is (" + center.getX() + ", " + center.getY() + ")");
+        System.out.println(messageSource.getMessage("circle.center",new Object[]{center.getX(),center.getY()},"No values found",null));
+        //System.out.println("Center Point is (" + center.getX() + ", " + center.getY() + ")");
     }
 
     @Resource(name = "pointA")
