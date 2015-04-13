@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<beans default-init-method="onInit" default-destroy-method="onDestroy" xmlns="http://www.springframework.org/schema/beans"
+<beans default-init-method="onInit" default-destroy-method="onDestroy"
+       xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <bean id="triangle" class="com.maany.spring.Triangle" autowire="byName" init-method="onInit" destroy-method="onDestroy">
+    <bean id="triangle" class="com.maany.spring.Triangle" autowire="byName" init-method="onInit"
+          destroy-method="onDestroy">
 
         <property name="points">
             <list>
-                <ref bean = "pointA"/>
-                <ref bean = "pointB"/>
-                <ref bean = "pointC"/>
+                <ref bean="pointA"/>
+                <ref bean="pointB"/>
+                <ref bean="pointC"/>
             </list>
         </property>
     </bean>
     <bean id="triangle2" class="com.maany.spring.Triangle" parent="triangle" autowire="byName">
         <property name="points">
             <list merge="true">
-                <ref bean = "pointInfinite"/>
+                <ref bean="pointInfinite"/>
             </list>
         </property>
     </bean>
@@ -30,11 +32,15 @@
         <constructor-arg value="20" index="1"/>
     </bean>
     <bean id="pointC" class="com.maany.spring.Point">
-        <constructor-arg value="0" index="0"/>
-        <constructor-arg value="0" index="1"/>
+        <constructor-arg value="${a.x}" index="0"/>
+        <constructor-arg value="${a.y}" index="1"/>
     </bean>
     <bean id="pointInfinite" class="com.maany.spring.Point">
         <constructor-arg value="2020" index="0"/>
         <constructor-arg value="2020" index="1"/>
+    </bean>
+    <bean class="com.maany.spring.MyBPP"/>
+    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="location" value="myvalues.properties"/>
     </bean>
 </beans>
