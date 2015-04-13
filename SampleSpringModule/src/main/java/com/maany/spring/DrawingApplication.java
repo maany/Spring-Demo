@@ -17,6 +17,8 @@ public class DrawingApplication {
        // triangle.draw();
        // triangle2.draw();
         shape.draw();
+        System.out.println("******************");
+        System.out.println(context.getMessage("main.greeting",null,"default message",null));
     }
 
 }
