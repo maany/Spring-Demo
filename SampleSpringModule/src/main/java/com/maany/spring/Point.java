@@ -2,6 +2,9 @@ package com.maany.spring;
 
 import org.springframework.beans.factory.BeanNameAware;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
 /**
  * Created by OPSKMC on 4/12/15.
  */
@@ -41,5 +44,13 @@ public class Point implements BeanNameAware{
     @Override
     public void setBeanName(String s) {
         this.name = s;
+    }
+    @PostConstruct
+    public void init(){
+        System.out.println("My init called");
+    }
+    @PreDestroy
+    public void destroy(){
+        System.out.println("my destroy called");
     }
 }
