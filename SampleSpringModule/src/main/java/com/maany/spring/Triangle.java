@@ -83,4 +83,11 @@ public class Triangle implements InitializingBean, DisposableBean,BeanNameAware{
     public void setBeanName(String s) {
         this.name = s;
     }
+
+    public void onInit(){
+        System.out.println("My init method called for " + name);
+    }
+    public void onDestroy(){
+        System.out.println("My destroy method called for " + name);
+    }
 }

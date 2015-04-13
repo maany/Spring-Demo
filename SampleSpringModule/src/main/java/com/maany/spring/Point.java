@@ -1,11 +1,14 @@
 package com.maany.spring;
 
+import org.springframework.beans.factory.BeanNameAware;
+
 /**
  * Created by OPSKMC on 4/12/15.
  */
-public class Point {
+public class Point implements BeanNameAware{
     private int x;
     private int y;
+    private String name;
 
     public Point(int x, int y) {
         this.x = x;
@@ -26,5 +29,17 @@ public class Point {
 
     public void setY(int y) {
         this.y = y;
+    }
+
+    public void onInit(){
+        System.out.println("My init called for " + name);
+    }
+
+    public void onDestroy(){
+        System.out.println("My destroy called " + name);
+    }
+    @Override
+    public void setBeanName(String s) {
+        this.name = s;
     }
 }
