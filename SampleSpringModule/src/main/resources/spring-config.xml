@@ -38,6 +38,7 @@
         <constructor-arg value="2020" index="1"/>
     </bean>
     <bean id="circle" class="com.maany.spring.Circle">
-        <property name="center" ref = "pointA"/>
+        
     </bean>
+    <bean class="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor"/>
 </beans>
