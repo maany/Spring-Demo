@@ -31,7 +31,7 @@ public class Triangle implements InitializingBean, DisposableBean,BeanNameAware{
     }
 
     public void setPointA(Point pointA) {
-        System.out.println("Value set for Triangle");
+        System.out.println("setPointA() called for triangle " + name);
         this.pointA = pointA;
     }
 
@@ -71,7 +71,7 @@ public class Triangle implements InitializingBean, DisposableBean,BeanNameAware{
 
     @Override
     public void afterPropertiesSet() throws Exception {
-        System.out.println("Initializing the bean");
+        System.out.println("Properties set for triangle");
     }
 
     @Override
