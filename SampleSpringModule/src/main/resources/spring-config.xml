@@ -21,7 +21,8 @@
             </list>
         </property>
     </bean>
-    <bean id="pointA" class="com.maany.spring.Point">
+    <bean id="pointA" class="com.maany.spring.Point" >
+        <qualifier value="circleCenter"/>
         <constructor-arg value="20" index="0"/>
         <constructor-arg value="20" index="1"/>
     </bean>
@@ -38,7 +39,9 @@
         <constructor-arg value="2020" index="1"/>
     </bean>
     <bean id="circle" class="com.maany.spring.Circle">
-        
+        <!--<property name="center" ref = "pointA"/>-->
     </bean>
     <bean class="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor"/>
+    <bean class ="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor"/>
+    <!--<alias name="pointA" alias="center"/>-->
 </beans>
