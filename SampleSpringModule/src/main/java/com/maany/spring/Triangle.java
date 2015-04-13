@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Created by OPSKMC on 4/12/15.
  */
-public class Triangle implements InitializingBean, DisposableBean,BeanNameAware{
+public class Triangle implements InitializingBean, DisposableBean,BeanNameAware,Shape{
     private Point pointA;
     private Point pointB;
     private Point pointC;
@@ -60,13 +60,14 @@ public class Triangle implements InitializingBean, DisposableBean,BeanNameAware{
     }
 
     public void draw(){
+        System.out.println("Drawing Triangle");
         System.out.println("Point A : x: " + pointA.getX() + " y: " + pointA.getY());
         System.out.println("Point B : x: " + pointB.getX() + " y: " + pointB.getY());
         System.out.println("Point C : x: " + pointC.getX() + " y: " + pointC.getY());
-        System.out.println("************** Printing List**************");
+        /*System.out.println("************** Printing List**************");
         for(Point point:points)
             System.out.println("Point : x: " + point.getX() + " y: " + point.getY());
-        System.out.println("**************List Complete***************");
+        System.out.println("**************List Complete***************");*/
     }
 
     @Override
