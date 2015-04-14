@@ -18,6 +18,7 @@ import javax.annotation.Resource;
 /**
  * Created by OPSKMC on 4/13/15.
  */
+
 @Controller
 public class Circle implements Shape,ApplicationContextAware {
     private Point center;

@@ -2,13 +2,14 @@ package com.maany.spring.aop.aspect;
 
 
 import org.aspectj.lang.JoinPoint;
+import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 /**
  * Created by OPSKMC on 4/14/15.
  */
-@Aspect
+//@Aspect
 public class Logging {
     /**
      * An aspect contains number of advices. standard AOP terminology.
@@ -35,18 +36,37 @@ public class Logging {
     @Pointcut("within(com.maany.spring.aop.service..*)") // all packages and subpackages
     public void allAOPGetters(){}
 
-    @After("args(name)") // IMPORTANT, First argument is to be JointPoint, followed by arguments of the method.
+   // @After("args(name)") // IMPORTANT, First argument is to be JointPoint, followed by arguments of the method.
     public void stringSetters(JoinPoint joinPoint,String name){
         System.out.println("Name setter was called for " + name);
     }
-    @AfterReturning(pointcut = "args(name)", returning = "returnValue")
+   // @AfterReturning(pointcut = "args(name)", returning = "returnValue")
     public void successReturns(String name,String returnValue){
         System.out.println("Earlier value was : " + name + " and now it is : " + returnValue);
     }
-    @AfterThrowing(pointcut = "args(name)", throwing = "ex")
+   // @AfterThrowing(pointcut = "args(name)", throwing = "ex")
     public void exceptionReturns(String name,Exception ex){
         System.out.println("An exception has been thrown : " + ex);
     }
+
+    //@Around("args(name)")
+    //@Around("@annotation(com.maany.spring.aop.loggable) && args(name)") //Custom Annotations
+    @Around("allGetters() && args(name)")
+    public Object aroundSetters(ProceedingJoinPoint proceedingJoinPoint,String name){
+        Object returnValue = null;
+        try {
+            /* Do argument validations*/
+            System.out.println("Before method");
+            returnValue = proceedingJoinPoint.proceed();
+            System.out.println("After Returning");
+            /* Do return value validations*/
+        } catch (Throwable throwable) {
+            throwable.printStackTrace();
+            System.out.println("After Throwing");
+        }
+        return returnValue;
+    }
+
 
 
 }
