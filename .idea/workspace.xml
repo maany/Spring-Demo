@@ -1,0 +1,1306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4dcfb239-6d87-4f56-b50a-a965d41fd50d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringAOP/src/main/java/com/maany/spring/aop/AOPmain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringAOP/src/main/java/com/maany/spring/aop/loggable.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpringAOP/src/main/java/com/maany/spring/aop/service/Circle.java" afterPath="$PROJECT_DIR$/SpringAOP/src/main/java/com/maany/spring/aop/service/Circle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SampleSpringModule/src/main/java/com/maany/spring/DrawingApplication.java" afterPath="$PROJECT_DIR$/SampleSpringModule/src/main/java/com/maany/spring/DrawingApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SampleSpringModule/src/main/java/foo/bar/HelloApp.java" afterPath="$PROJECT_DIR$/SampleSpringModule/src/main/java/foo/bar/HelloApp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SampleSpringModule/src/main/java/foo/bar/HelloService.java" afterPath="$PROJECT_DIR$/SampleSpringModule/src/main/java/foo/bar/HelloService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SampleSpringModule/src/main/java/com/maany/spring/Point.java" afterPath="$PROJECT_DIR$/SampleSpringModule/src/main/java/com/maany/spring/Point.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SampleSpringModule/SampleSpringModule.iml" afterPath="$PROJECT_DIR$/SampleSpringModule/SampleSpringModule.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SampleSpringModule/src/test/java/foo/bar/SpringAppTests.java" afterPath="$PROJECT_DIR$/SampleSpringModule/src/test/java/foo/bar/SpringAppTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SampleSpringModule/src/main/java/com/maany/spring/Triangle.java" afterPath="$PROJECT_DIR$/SampleSpringModule/src/main/java/com/maany/spring/Triangle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpringAOP/src/main/java/com/maany/spring/aop/service/Triangle.java" afterPath="$PROJECT_DIR$/SpringAOP/src/main/java/com/maany/spring/aop/service/Triangle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SampleSpringModule/pom.xml" afterPath="$PROJECT_DIR$/SampleSpringModule/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SampleSpringModule/src/main/resources/spring-config.xml" afterPath="$PROJECT_DIR$/SampleSpringModule/src/main/resources/spring-config.xml" />
+    </list>
+    <ignored path="SpringDemo.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="SpringDemo" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="spring-config.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringAOP/src/main/resources/spring-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="11" selection-start="1005" selection-end="1005" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="527">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AOPmain.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringAOP/src/main/java/com/maany/spring/aop/AOPmain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="51" selection-start="536" selection-end="551" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="391">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Shape.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringAOP/src/main/java/com/maany/spring/aop/service/Shape.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="31" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="561">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Logging.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SpringAOP/src/main/java/com/maany/spring/aop/aspect/Logging.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="56" column="13" selection-start="2280" selection-end="2280" vertical-scroll-proportion="0.37300178" vertical-offset="742" max-vertical-offset="1326">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Circle.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringAOP/src/main/java/com/maany/spring/aop/service/Circle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="13" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="544">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Triangle.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringAOP/src/main/java/com/maany/spring/aop/service/Triangle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="29" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="374">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/SampleSpringModule/src/main/java/com/maany/spring/MyBPP.java" />
+        <option value="$PROJECT_DIR$/SampleSpringModule/src/main/java/com/maany/spring/MyBFPP.java" />
+        <option value="$PROJECT_DIR$/SampleSpringModule/src/main/java/com/maany/spring/Shape.java" />
+        <option value="$PROJECT_DIR$/SampleSpringModule/src/main/java/com/maany/spring/Triangle.java" />
+        <option value="$PROJECT_DIR$/SampleSpringModule/src/main/java/com/maany/spring/Point.java" />
+        <option value="$PROJECT_DIR$/SampleSpringModule/src/main/resources/myvalues.properties" />
+        <option value="$PROJECT_DIR$/SampleSpringModule/src/main/java/com/maany/spring/DrawingApplication.java" />
+        <option value="$PROJECT_DIR$/SampleSpringModule/src/main/resources/spring-config.xml" />
+        <option value="$PROJECT_DIR$/SampleSpringModule/src/main/java/com/maany/spring/MyEvent.java" />
+        <option value="$PROJECT_DIR$/SampleSpringModule/src/main/java/com/maany/spring/MyEventHandler.java" />
+        <option value="$PROJECT_DIR$/SampleSpringModule/src/main/java/foo/bar/HelloApp.java" />
+        <option value="$PROJECT_DIR$/SpringAOP/src/main/java/com/maany/spring/aop/service/Triangle.java" />
+        <option value="$PROJECT_DIR$/SampleSpringModule/src/main/java/com/maany/spring/Circle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maany/spring/HelloApp.java" />
+        <option value="$PROJECT_DIR$/SpringAOP/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringAOP/src/main/java/com/maany/spring/aop/AOPmain.java" />
+        <option value="/PointcutExpression Fragment (Logging.java:1952).pointcutExpression" />
+        <option value="$PROJECT_DIR$/SpringAOP/src/main/java/com/maany/spring/aop/loggable.java" />
+        <option value="$PROJECT_DIR$/SpringAOP/src/main/java/com/maany/spring/aop/service/Shape.java" />
+        <option value="$PROJECT_DIR$/SpringAOP/src/main/java/com/maany/spring/aop/service/Circle.java" />
+        <option value="$PROJECT_DIR$/SpringAOP/src/main/java/com/maany/spring/aop/aspect/Logging.java" />
+        <option value="$PROJECT_DIR$/SpringAOP/src/main/resources/spring-config.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SampleSpringModule" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SampleSpringModule" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SampleSpringModule" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SampleSpringModule" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SampleSpringModule" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Production">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="SpringAOP">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="SpringAOP">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="SpringAOP">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="SpringAOP">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="SpringAOP">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="SpringAOP">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="SpringAOP">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="SpringAOP">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="resources">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="SpringAOP">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="SpringAOP">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="java">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="com/maany/spring/aop">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SampleSpringModule" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SpringAOP/src/main/resources" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="SearchEverywhereHistory" value="cen&#10;destroy()" />
+    <property name="LayoutCode.rearrangeEntriesXML" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="true" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="Downloaded.Files.Path" value="E:\Projects\GSoC 15\OpenMRS\OpenMRS IntellijIdea\SpringDemo\lib" />
+    <property name="LayoutCode.rearrangeEntriesJava" value="false" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RunManager" selected="Application.Spring AOP">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails" singleton="true">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browserFamily" value="FIREFOX" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" output_log_level="null" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browserFamily" value="FIREFOX" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Spring Module" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="com.maany.spring.DrawingApplication" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="SpringAOP" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Spring AOP" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="com.maany.spring.aop.AOPmain" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="SpringAOP" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Application.HelloApp" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Spring Module" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Spring AOP" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.AppTests" />
+    </list>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4dcfb239-6d87-4f56-b50a-a965d41fd50d" name="Default" comment="" />
+      <created>1428811338664</created>
+      <updated>1428811338664</updated>
+      <workItem from="1428811350425" duration="2291000" />
+      <workItem from="1428824851615" duration="4453000" />
+      <workItem from="1428843110750" duration="40379000" />
+      <workItem from="1429107852393" duration="193000" />
+      <workItem from="1429151668469" duration="182000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1428895042271</created>
+      <updated>1428895042271</updated>
+    </task>
+    <task id="LOCAL-00002" summary="lifecycle callbacks">
+      <created>1428895602934</created>
+      <updated>1428895602934</updated>
+    </task>
+    <task id="LOCAL-00003" summary="BeanFactoryPostProcessor&#10;">
+      <created>1428896937409</created>
+      <updated>1428896937409</updated>
+    </task>
+    <task id="LOCAL-00004" summary="BeanFactoryPostProcessor&#10;PropertyPlaceholderConfigurer">
+      <created>1428898405804</created>
+      <updated>1428898405804</updated>
+    </task>
+    <task id="LOCAL-00005" summary="coding to interfaces">
+      <created>1428902130592</created>
+      <updated>1428902130592</updated>
+    </task>
+    <task id="LOCAL-00006" summary="@Required and RequiredAnnotationBeanPostProcessor">
+      <created>1428903581374</created>
+      <updated>1428903581374</updated>
+    </task>
+    <task id="LOCAL-00007" summary="1)@Autowired and AutowiredAnnotationBeanPostProcessor&#10;2) byName search using alias tag and name attribute&#10;3) @Qualifier and &lt;qualifier /&gt;">
+      <created>1428905943495</created>
+      <updated>1428905943495</updated>
+    </task>
+    <task id="LOCAL-00008" summary="JSR-250&#10;1)@Resource&#10;2)@PostConstruct&#10;3)@PreDestroy">
+      <created>1428909420712</created>
+      <updated>1428909420712</updated>
+    </task>
+    <task id="LOCAL-00009" summary="@Component&#10;+ stereotypicall roles introductions&#10;@Service @Controller @Repository">
+      <created>1428912517695</created>
+      <updated>1428912517695</updated>
+    </task>
+    <task id="LOCAL-00010" summary="MessageSource (ResourceBundleMessageSource)&#10;and Internationalization&#10;">
+      <created>1428915637397</created>
+      <updated>1428915637397</updated>
+    </task>
+    <task id="LOCAL-00011" summary="ApplicationEvent, ApplicationListener, ApplicationEventPublisher&#10;">
+      <created>1428918871082</created>
+      <updated>1428918871082</updated>
+    </task>
+    <task id="LOCAL-00012" summary="AOP set up&#10;">
+      <created>1428981085730</created>
+      <updated>1428981085730</updated>
+    </task>
+    <task id="LOCAL-00013" summary="wildcard and @Before&#10;">
+      <created>1428986015815</created>
+      <updated>1428986015815</updated>
+    </task>
+    <task id="LOCAL-00014" summary="@Pointcut&#10;">
+      <created>1428988761509</created>
+      <updated>1428988761509</updated>
+    </task>
+    <task id="LOCAL-00015" summary="@Pointcut&#10;pointcut expressions&#10;within&#10;logical operations&#10;">
+      <created>1428990705696</created>
+      <updated>1428990705696</updated>
+    </task>
+    <task id="LOCAL-00016" summary="@After&#10;@AfterThrowing&#10;@AfterReturning(pointcut = &quot;&quot;, returning = &quot;name&quot;)">
+      <created>1428996431680</created>
+      <updated>1428996431680</updated>
+    </task>
+    <task id="LOCAL-00017" summary="@Around&#10;return value&#10;ProceedingJointPoint&#10;Throwing">
+      <created>1428999380667</created>
+      <updated>1428999380667</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Custom Annotations&#10;@loggable">
+      <created>1429001718637</created>
+      <updated>1429001718637</updated>
+    </task>
+    <task id="LOCAL-00019" summary="xml aop configurations">
+      <created>1429004169366</created>
+      <updated>1429004169366</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="47498000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270869" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="lifecycle callbacks" />
+    <MESSAGE value="BeanFactoryPostProcessor&#10;" />
+    <MESSAGE value="BeanFactoryPostProcessor&#10;PropertyPlaceholderConfigurer" />
+    <MESSAGE value="coding to interfaces" />
+    <MESSAGE value="@Required and RequiredAnnotationBeanPostProcessor" />
+    <MESSAGE value="1)@Autowired and AutowiredAnnotationBeanPostProcessor&#10;2) byName search using alias tag and name attribute&#10;3) @Qualifier and &lt;qualifier /&gt;" />
+    <MESSAGE value="JSR-250&#10;1)@Resource&#10;2)@PostConstruct&#10;3)@PreDestroy" />
+    <MESSAGE value="@Component&#10;+ stereotypicall roles introductions&#10;@Service @Controller @Repository" />
+    <MESSAGE value="MessageSource (ResourceBundleMessageSource)&#10;and Internationalization&#10;" />
+    <MESSAGE value="ApplicationEvent, ApplicationListener, ApplicationEventPublisher&#10;" />
+    <MESSAGE value="AOP set up&#10;" />
+    <MESSAGE value="wildcard and @Before&#10;" />
+    <MESSAGE value="@Pointcut&#10;" />
+    <MESSAGE value="@Pointcut&#10;pointcut expressions&#10;within&#10;logical operations&#10;" />
+    <MESSAGE value="@After&#10;@AfterThrowing&#10;@AfterReturning(pointcut = &quot;&quot;, returning = &quot;name&quot;)" />
+    <MESSAGE value="@Around&#10;return value&#10;ProceedingJointPoint&#10;Throwing" />
+    <MESSAGE value="Custom Annotations&#10;@loggable" />
+    <MESSAGE value="xml aop configurations" />
+    <option name="LAST_COMMIT_MESSAGE" value="xml aop configurations" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/SpringAOP/src/main/resources/spring-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="11" selection-start="1005" selection-end="1005" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAOP/src/main/java/com/maany/spring/aop/AOPmain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="51" selection-start="536" selection-end="551" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAOP/src/main/java/com/maany/spring/aop/service/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="31" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAOP/src/main/java/com/maany/spring/aop/aspect/Logging.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="3" selection-start="2107" selection-end="2107" vertical-scroll-proportion="0.0" vertical-offset="901" max-vertical-offset="1326">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAOP/src/main/java/com/maany/spring/aop/service/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="13" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAOP/src/main/java/com/maany/spring/aop/service/Triangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="29" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAOP/src/main/resources/spring-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="11" selection-start="1005" selection-end="1005" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAOP/src/main/java/com/maany/spring/aop/AOPmain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="51" selection-start="536" selection-end="551" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAOP/src/main/java/com/maany/spring/aop/service/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="31" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAOP/src/main/java/com/maany/spring/aop/aspect/Logging.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="3" selection-start="2107" selection-end="2107" vertical-scroll-proportion="0.0" vertical-offset="901" max-vertical-offset="1326">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAOP/src/main/java/com/maany/spring/aop/service/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="13" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0" vertical-offset="158" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAOP/src/main/java/com/maany/spring/aop/service/Triangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="29" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SampleSpringModule/src/main/resources/spring-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="23" selection-start="666" selection-end="666" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="748" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SampleSpringModule/src/main/java/com/maany/spring/Triangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="37" selection-start="1210" selection-end="1210" vertical-scroll-proportion="0.0" vertical-offset="969" max-vertical-offset="1190" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SampleSpringModule/src/main/java/com/maany/spring/DrawingApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="8" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="425" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SampleSpringModule/src/main/java/com/maany/spring/Point.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="18" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="612" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SampleSpringModule/src/main/resources/spring-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="24" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="221" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SampleSpringModule/src/test/java/foo/bar/SpringAppTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="34" selection-start="541" selection-end="541" vertical-scroll-proportion="0.27419356" vertical-offset="0" max-vertical-offset="372" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maany/spring/HelloService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="160" selection-end="160" vertical-scroll-proportion="0.3090909" vertical-offset="0" max-vertical-offset="385" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.2.0.RELEASE/spring-beans-3.2.0.RELEASE.jar!/org/springframework/beans/factory/xml/spring-beans-3.2.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="529" column="4" selection-start="21027" selection-end="21027" vertical-scroll-proportion="0.33333334" vertical-offset="8806" max-vertical-offset="20553">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SampleSpringModule/src/main/java/com/maany/spring/MyBFPP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SampleSpringModule/src/main/java/com/maany/spring/MyBPP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="19" selection-start="787" selection-end="787" vertical-scroll-proportion="0.0" vertical-offset="158" max-vertical-offset="561" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SampleSpringModule/src/main/java/com/maany/spring/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="23" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SampleSpringModule/src/main/java/com/maany/spring/DrawingApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="52" selection-start="868" selection-end="868" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="476" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SampleSpringModule/src/main/resources/myvalues.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="5" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SampleSpringModule/src/main/resources/spring-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="11" selection-start="1994" selection-end="1994" vertical-scroll-proportion="0.0" vertical-offset="596" max-vertical-offset="969" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SampleSpringModule/src/main/java/com/maany/spring/MyEventHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="3" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="391" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SampleSpringModule/src/main/java/foo/bar/HelloApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="5" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAOP/SpringAOP.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="45" selection-start="1037" selection-end="1037" vertical-scroll-proportion="0.7831978" vertical-offset="51" max-vertical-offset="1241" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SampleSpringModule/src/main/java/com/maany/spring/MyEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="0.04607046" vertical-offset="0" max-vertical-offset="369" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SampleSpringModule/src/main/java/com/maany/spring/Point.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="309" selection-end="309" vertical-scroll-proportion="0.64498645" vertical-offset="0" max-vertical-offset="918" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SampleSpringModule/src/main/java/com/maany/spring/Triangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="9" selection-start="2245" selection-end="2245" vertical-scroll-proportion="3.1788619" vertical-offset="0" max-vertical-offset="1462" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SampleSpringModule/src/main/java/com/maany/spring/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="755" selection-end="755" vertical-scroll-proportion="0.28370786" vertical-offset="239" max-vertical-offset="816" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maany/spring/HelloApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="157" selection-end="157" vertical-scroll-proportion="0.13821138" vertical-offset="0" max-vertical-offset="369" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1224" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAOP/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="0" selection-start="1724" selection-end="1724" vertical-scroll-proportion="0.73712736" vertical-offset="561" max-vertical-offset="1326">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAOP/src/main/java/com/maany/spring/aop/service/Triangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="29" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAOP/src/main/java/com/maany/spring/aop/loggable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="3" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAOP/src/main/java/com/maany/spring/aop/service/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="13" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0" vertical-offset="158" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAOP/src/main/java/com/maany/spring/aop/service/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="31" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAOP/src/main/java/com/maany/spring/aop/AOPmain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="51" selection-start="536" selection-end="551" vertical-scroll-proportion="0.0" vertical-offset="22" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAOP/src/main/resources/spring-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="11" selection-start="1005" selection-end="1005" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAOP/src/main/java/com/maany/spring/aop/aspect/Logging.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="13" selection-start="2280" selection-end="2280" vertical-scroll-proportion="0.37300178" vertical-offset="742" max-vertical-offset="1326">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SpringAOP</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>org.aspectj:aspectjweaver:1.8.5</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+
